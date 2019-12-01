@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Portfolio Aleksa Drozdova</title>
+      <!-- Bootstrap -->
+      <link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet" type="text/css">
+      <link href="css/contact.css" rel="stylesheet" type="text/css">
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script>var __adobewebfontsappname__="dreamweaver"</script>
+  <script src="http://use.edgefonts.net/open-sans-condensed:n3:default.js" ></script>
+  </head>
+    <body>
+      <!-- body code goes here -->
+    <div class="container-fluid">
+	    <header>
+			
+<nav class="navbar navbar-expand-lg navbar-light" id="fixednav">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+        aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul>
+      <li><a href="intro.html"> INTRO</a></li>
+      <li><a href="index.html"> WORK</a></li>
+      <li class="thispage"><a href="contact.html"> CONTACT</a></li>
+    </ul>
+  </div>
+  <div class="div2"><a href="index.html"> Aleksa Drozdova </a></div>
+</nav>
+     </div>
+			
+&nbsp;
+      </header>
+      <main> &nbsp;
+        <h4>Dear visitors! The contact form is temporarily not working. Please send your message to <a href="https://www.linkedin.com/in/aleksandra-drozdova/">LinkedIn</a> and I will reply shortly.</h4>
+        <div class="container">  
+  <form id="contact" action="MAILTO:aleksa.designerr@gmail.com" method="post">
+    <h3>Email Us</h3>
+    <h4> Please fill out the form below and we will contact you shortly.</h4>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+    </fieldset>
+    <fieldset>
+      <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+  </form>
+</div>
+      </main>
+<footer>
+  <div><a href="https://www.linkedin.com/in/aleksandra-drozdova/"><img src="image/icon3.jpg" alt="" width="142" height="142" class="icons"></a><a href="https://www.behance.net/aleksadesi05e3"><img src="image/icon2.jpg" alt="" width="142" height="142" class="icons"></a><a href="https://www.instagram.com/aleksa.designer/"><img src="image/icon.jpg" alt="" width="142" height="142" class="icons"></a></div>
+  <p class="pfooter">© 2018 Aleksa Drozdova. All rights reserved.</p>
+  &nbsp;</footer>
+   
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.2.1.min.js"></script>
+      
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.0.0.js"></script>
+    <script>
+    $(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
+    </script>
+  </body>
+  </html>
+
